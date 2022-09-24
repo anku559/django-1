@@ -1,0 +1,18 @@
+# Create Virtual Environment in the Vagrant
+  /vagrant$ python -m venv ~/env
+
+# Activate VENV in the Vagrant
+  /vagrant$ source ~/env/bin/activate
+
+# Installing packages from the requirements.txt file
+  pip install -r requirements.txt
+
+# Create Project
+  django-admin startproject profiles_project .
+
+# Create App
+  python manage.py startapp profiles_project
+
+# Run Server
+  python manage.py runserver 0.0.0.0:8000
+  Link - http://127.0.0.1:8000/
