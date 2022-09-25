@@ -1,0 +1,9 @@
+{
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "editor.formatOnPaste": false,
+  "python.linting.flake8Args": ["--linelength", "120"],
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  }
+}
